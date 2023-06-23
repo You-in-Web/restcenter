@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>404</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="noindex, nofollow"/>
+<link rel="stylesheet" type="text/css" href="style/main.css" media="screen" />
+
+
+</head>
+
+<body>
+<div id="main">
+<script type="text/javascript">
+function timer(){
+ var obj=document.getElementById('timer_inp');
+ obj.innerHTML--;
+ if(obj.innerHTML==0){
+ location = "../index.php"
+ setTimeout(function(){},500);}
+ else{setTimeout(timer,500);}
+}
+setTimeout(timer,500);
+</script>
+<br /><br />
+<center>
+<h1>Ошибка 404. Такой страници нет.</h1>
+<br />
+<a href="../index.php">&laquo; Календарь</a>
+<br /><br />
+<small>Перенапраление на календарь произойдёт через <span id="timer_inp">5</span> сек.</small>
+</center>
+
+<div class="copy">&copy; <?php echo date('Y'); ?> <a href="">ABS</a></div>
+</div>
+</body>
+</html>
