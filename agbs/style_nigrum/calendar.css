@@ -1,0 +1,127 @@
+/* календарь */
+
+#calendar table  { border-spacing: 1px; margin: 0 auto;}
+
+#calendar td   {padding:0; margin: 0; width:54px; height:52px;}
+
+#calendar.nodate1 td   {padding:0; margin: 0; width:120px; height:70px;}
+
+#calendar th  {padding:4px; border:0; height:20px; font-weight:normal; text-align: left; }
+
+.select_date {margin:0; display:block; width:100%; height:100%; overflow:hidden; padding:0; position: relative;}
+
+.select_date:hover {color:#fff; background:#565658;
+webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+
+.select_date a {margin:0; display:block; width:100%; height:100%; padding:4px; color:#eee; text-decoration: none; 
+webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+color:#fff!important;
+}
+.select_date a:hover {color:#fff; background:#565658;}
+.off_date {margin:0; display:block; width:100%; height:100%; overflow:hidden; padding:4px; color:#777;}
+
+
+
+.datehead { background: #313132; color: #aaa; }
+
+.cal { background: #313132; }
+
+.caltoday { background: #565658; }
+.caltoday a{ background: #565658;}
+
+.weekday  { color: #eb3f16; }
+.weekday a { color: #eb3f16;}
+
+.last_day { background: #212122; color:#777; }
+
+.disabled_date  {margin:0; display:block; width:100%; height:100%; overflow:hidden;}
+.disabled_date  span{margin:0; display:block; width:100%; height:100%; padding:4px;}
+.disabled_date  span.weekday{margin:0; display:block; width:100%; height:100%; padding:4px; color:#777;}
+
+.closed_date  {margin:0; display:block; width:100%; height:100%; overflow:hidden; cursor: help;
+/*background: url(img/closed_day.png) no-repeat center;*/
+}
+.closed_date   span{margin:0; display:block; width:100%; height:100%; padding:4px; color:#777; text-shadow: 0 1px 0 #000;}
+.closed_date  span.weekday{margin:0; display:block; width:100%; height:100%; padding:4px; color:#777; text-shadow: 0 1px 0 #000;}
+
+#calendar th.navi {padding:0; margin:0; border:0;}
+#calendar_head {padding:0; margin:0; width:100%; font-size:16px; position: relative;}
+
+.month_back {width:54px; text-align:center; height:32px; position: absolute; left:0; top:0; border-right: #000 1px solid;}
+.month_back a{
+height:31px; 
+background: #383839; 
+display:block; line-height:31px;  text-decoration: none;
+text-shadow: none;
+}
+.month_back a:hover{
+height:31px; 
+background: #eb3f16; 
+color:#fff; }
+
+
+.month_next {width:54px; text-align:center; height:32px; margin:0; position: absolute; right:0; top:0; border-left: #000 1px solid;}
+.month_next a{
+height:31px; 
+background: #383839; 
+display:block; line-height:31px;  text-decoration: none;}
+.month_next a:hover{
+height:31px; 
+background: #eb3f16;
+color:#fff; }
+
+
+.month_title {float:left; text-align:center; margin:0 auto; width:100%; line-height:31px; height:31px; background: #313132;  color:#ddd;}
+
+
+.select_date label {
+padding:4px; 
+margin:0; 
+display:block; 
+width:100%; height:100%; 
+overflow:hidden; 
+cursor: pointer;}
+.select_date_check label {
+background: #313132;
+padding:4px; 
+margin:0; 
+display:block; 
+width:100%; height:100%; 
+overflow:hidden; 
+cursor: pointer;}
+
+.add_date {background: #565658 url(img/check_d.png) no-repeat center;}
+
+
+.dd {position: absolute;
+
+top:0; left:0; 
+margin:0; 
+display:block; 
+width:100%; height:100%; 
+overflow:hidden; 
+padding:4px; 
+background: #3e3e3e url(img/lock_d.png) no-repeat center; 
+color: #777;
+
+cursor:help;
+}
+td.caltoday div.dd {
+position: absolute; 
+top:0; left:0; 
+margin:0; 
+display:block; 
+width:100%; height:100%; 
+overflow:hidden; 
+padding:4px; 
+background: #3e3e3e url(img/lock_d.png) no-repeat center; 
+color: #777;
+cursor:help;
+}

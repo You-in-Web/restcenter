@@ -1,0 +1,43 @@
+#steps {
+margin: 0 auto;
+padding:0;
+width: 800px;
+font-size: 12px;
+text-align: center;
+
+}
+
+#steps span.point  {
+margin: 0; padding:0px; 
+width: 140px; 
+padding:0;
+height:40px;
+line-height:40px;
+display: block; 
+text-align: center;
+background: #181819;
+float:left; 
+color: #525253;
+}
+
+#steps span.point_active  {
+margin: 0; padding:0px; 
+width: 140px; 
+padding:0;
+height:40px;
+line-height:40px;
+display: block; 
+text-align: center;
+background: #252526;
+float:left; 
+color: #EB3F16;
+}
+
+#steps span.way_point  {margin: 0; padding:0; width: 190px; display: block; float:left; border-bottom: #181819 1px solid; height:20px;}
+
+#steps span.way_point_active  {margin: 0; padding:0; width: 190px; display: block; float:left; border-bottom: #252526 1px solid; height:18px;}
+
+.b_clear  {margin:0; padding:0; clear: both; height:20px;}
+
+
+

@@ -1,0 +1,17 @@
+.tooltip {
+  display: none;
+  position: absolute;
+  border: none;
+  background-color: rgba(255,255,255,0.8);
+  color: #000;
+  font-size:11px;
+  padding: 5px;
+  behavior: url(htc/PIE.htc);
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-khtml-border-radius: 4px;
+box-shadow: 0 1px 1px rgba(0,0,0,1);
+text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+

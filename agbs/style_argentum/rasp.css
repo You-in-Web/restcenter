@@ -1,0 +1,235 @@
+#calendar_head {width: 799px; margin:0 auto;}
+
+#calendar_rasp {}
+
+#calendar_rasp div.rasp_head {height: 20px; display:block;
+background: #e5e5e7; 
+margin: 0 0 20px 0; 
+padding: 10px; 
+color:#888;
+}
+
+#calendar_rasp table{margin: 0; border-collapse:collapse; width:100%; }
+
+#calendar_rasp table th {padding:0; border:#e5e5e7 1px solid; font-weight:normal; background:#eee; text-align: left;}
+
+#calendar_rasp table td {padding:0; border:#e5e5e7 1px solid; background:#eee; text-align: left; white-space:nowrap;}
+
+#calendar_rasp table td.time_t {border:0; border-top: #e5e5e7 1px solid; font-size:14px;}
+
+#calendar_rasp table td div {height:26px; line-height:26px; text-align:center;}
+
+#calendar_rasp table td div.day_red {background:#f2f2f3; font-size:16px; color:red; width:40px; border: none;}
+#calendar_rasp table td div.day {background:#f2f2f3; font-size:16px; width:40px; border: none;}
+
+#calendar_rasp table td div.day_red_d {font-size:16px; background:#eee; color:#bbb; width:40px;}
+#calendar_rasp table td div.day_d {font-size:16px; background:#eee; width:40px; color:#bbb;}
+#calendar_rasp table td div.weekn_red_d {background:#eee; font-size:16px; color:#bbb; width:104px; text-align: left; padding-left:5px;}
+#calendar_rasp table td div.weekn_d {background:#eee; font-size:16px; color:#bbb; width:104px; text-align: left; padding-left:5px;
+}
+#calendar_rasp table td div.r_time_d {
+float:left; background:#eee; color:#bbb; border-right:#e5e5e7 1px solid;
+display:block; padding:0; width: 26px; height:26px; line-height:26px; text-align:center; cursor: help;
+
+}
+
+
+
+#calendar_rasp table td div.weekn_red {background:#f2f2f3; color:red; width:104px; text-align: left; padding-left:5px;}
+#calendar_rasp table td div.weekn {background:#f2f2f3; width:104px; text-align: left; padding-left:5px;}
+ 
+#calendar_rasp table td div.day_l_red {font-size:16px; color: #ff9999; width:40px;}
+#calendar_rasp table td div.day_l {color: #bbb; font-size:16px; width:40px;} 
+
+#calendar_rasp table td div.weekn_l_red {color: #ff9999; width:104px; text-align: left; padding-left:5px;}
+#calendar_rasp table td div.weekn_l {color: #bbb ;width:104px; text-align: left; padding-left:5px;}
+
+
+#calendar_rasp table td div.day_red a {font-size:16px; display:block; background:#fff; color:red; width:40px; height:27px; border: none;
+background: linear-gradient(to top, #f7f7f8, #fff);
+}
+#calendar_rasp table td div.day_red a:hover { 
+background:#FF682C; 
+
+color:#fff; border: none;
+text-shadow: none;
+} 
+
+#calendar_rasp table td div.day a {
+font-size:16px; display:block; color:#516C8D; background:#fff; width:40px; height:27px; border: none;
+} 
+#calendar_rasp table td div.day a:hover { 
+background:#FF682C; 
+
+color:#fff; border: none;
+text-shadow: none;
+} 
+
+#calendar_rasp table td div.r_time {float:left; border-right:#e5e5e7 1px solid; background: #f7f7f8;
+display:block; padding:0; width: 26px; height:26px; line-height:26px; text-align:center;
+}
+
+#calendar_rasp table td div.r_time_l {float:left; border-right:#e5e5e7 1px solid; color:#bbb;
+display:block; padding:0; width: 26px; height:26px; line-height:26px; text-align:center;
+
+}
+
+
+
+#calendar_rasp table td div.r_time_b {
+float:left; 
+background:#FF682C; 
+color:#fff; 
+margin-right: 1px;
+border: none;
+display:block; padding:0; width: 26px; height:26px; line-height:26px; text-align:center;
+margin-left: -27px;
+position: relative;
+cursor: help;
+box-shadow: 0 3px 3px rgba(0,0,0,0.12);
+text-shadow:none;
+behavior: url(htc/PIE.htc);
+border-radius: 26px;
+-webkit-border-radius: 26px;
+-moz-border-radius: 26px;
+-khtml-border-radius: 26px;
+}
+
+#calendar_rasp table td div#r_time_bl {
+float:left; 
+background:#777; 
+color:#fff; 
+margin-right: 1px;
+border: none;
+display:block; padding:0; width: 26px; height:26px; line-height:26px; text-align:center;
+margin-left: -27px;
+position: relative;
+cursor: help;
+box-shadow: 0 3px 3px rgba(0,0,0,0.12);
+text-shadow:none;
+behavior: url(htc/PIE.htc);
+border-radius: 26px;
+-webkit-border-radius: 26px;
+-moz-border-radius: 26px;
+-khtml-border-radius: 26px;
+}
+#calendar_head  {
+width:798px!important;
+}
+
+.month_next {
+width:53px!important;
+}
+
+
+#calendar_rasp table td div.r_time_b:hover, #calendar_rasp table td div#r_time_bl:hover {
+color:#fff;
+background:#222!important;
+border:none; text-shadow:none;}
+
+#calendar_rasp table td div.r_time_b small {color:#eee; font-size:12px;}
+
+
+
+
+/*info*/
+
+/* DATE */
+
+
+#calendar_rasp table td div.r_time_db {float:left; background:#f7f7f8; color:#EB3F16; border:none;
+display:block; padding:0; width: 26px; height:26px; line-height:26px; text-align:center;
+margin-left: -27px;
+
+position: relative;
+border-top: none;
+behavior: url(htc/PIE.htc);
+border-radius: 26px;
+-webkit-border-radius: 26px;
+-moz-border-radius: 26px;
+-khtml-border-radius: 26px;
+}
+#r_time_db_l {color:#838C97!important;
+background:#EEEEEE!important;
+}
+
+#bdt {position:absolute; top:-2px; left:34px;}
+
+/* TIME */
+
+
+.booking_info, .booking_info, * {
+	margin:	0;
+	padding: 0;
+	list-style:	none;
+	
+}
+
+
+
+.r_time_b ul{
+padding:0; margin:0;
+position:absolute;
+display:none;
+}
+
+.r_time_b:hover  ul{
+display:block!important;
+position:relative;
+top:0px;
+left:-2px;
+min-width:180px;
+background: none;
+z-index: 99;
+}
+.r_time_b ul li {
+background: #333;
+
+padding:5px;
+word-wrap: break-word!important;
+white-space:normal;
+height:auto;
+text-align:left;
+font-size: 12px;
+text-shadow:none;
+line-height:20px;
+box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+}
+
+.r_time_b ul li.arrow_bi {position:relative; background: none; border: 0 none; box-shadow:none;}
+
+.arrow_block:before {
+border-top: 0 none!important;
+border: solid;
+border-color: #222 transparent;
+border-width: 0 15px 15px 15px;
+content: "";
+z-index: 99;
+margin: 0 0 0 0;
+position:absolute;
+top:0;
+left:0;
+}
+
+
+.r_time_b ul li.sep_bi {
+background: none;
+padding:0;
+margin:0;
+border:0 none;
+height:0px;
+}
+
+.r_time_b ul li.serv_info {
+background: #222;
+color:#fff;
+font-size: 14px;
+}
+
+.r_time_b ul li b {
+color:#FFE4B2;
+font-weight:normal;
+}
+
+.r_time_b ul li.tmin  {background:#3a3a3a;}
+.r_time_b ul li.tmin small{display:block;}
